@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint:eslint": "eslint --ext .ts,.tsx .",
     "lint:prettier": "prettier '**/*.{ts,tsx,json}' --write"
