@@ -1,12 +1,10 @@
-const Form = () => {
+const Form = (): JSX.Element => {
   return (
     <form method="post" action="/login">
       <input type="text" name="login" placeholder="login or email" />
       <input type="password" name="password" placeholder="password" />
 
-      <button type="submit">
-        Log in
-      </button>
+      <button type="submit">Log in</button>
       <p>
         <a href="/login/restore">Forgot your password?</a>
       </p>
