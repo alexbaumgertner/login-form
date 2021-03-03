@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import { Form } from '../src/components'
+import { LoginForm } from '../src/components'
 
 export default function Home(): JSX.Element {
   return (
@@ -12,8 +12,7 @@ export default function Home(): JSX.Element {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to React based form!</h1>
-        <Form />
+        <LoginForm />
       </main>
     </div>
   )

@@ -1,0 +1,55 @@
+.form {
+  margin: 20% 0 0 0;
+}
+
+.login {
+  display: block;
+  padding: 6px 12px 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.password {
+  margin: 16px 0 0 0;
+  display: block;
+  padding: 6px 12px 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.enter {
+  display: flex;
+}
+
+.submit {
+  padding: 6px 30px;
+  display: block;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background: #007efe;
+  border: none;
+}
+
+.captcha {
+  width: 304px;
+  height: 78px;
+  background-color: aliceblue;
+  position: relative;
+  margin: 10px;
+}
+
+.captcha::before {
+  content: 'CAPTCHA placeholder';
+  text-align: center;
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50%;
+  margin: -10px 0 0 0;
+  color: #B0C4DE;
+}
+
+.other {
+  display: flex;
+}
