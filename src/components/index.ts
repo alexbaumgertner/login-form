@@ -1,4 +1,4 @@
-import Form from './Form'
+import LoginForm from './LoginForm'
 import Button from './Button'
 
-export { Form, Button }
+export { LoginForm, Button }
